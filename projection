@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projectsection</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="projectsection.css">
+</head>
+<body>
+
+    <div class="top_bg_container">
+        <h1 class="ml-md-4">Portfolio</h1>
+        <h1 class="h1 ml-md-4">Projects I have done</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="card_container shadow">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-1-img.png" class="portfolio-project-1-img.png">
+                        <h1 id="h1">Web design</h1>
+                        <h1 style="color: #ffffff;">Royal Grand Hotel</h1>
+                        <p>
+                            Royal Grand Hotel is a Simple
+                            static Website.We can use this 
+                            layout for building the other 
+                            websites...
+                        </p>
+                        <a href="#" class="read_more">
+                            Read More
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                              </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="card_container shadow">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-2-img.png" class="portfolio-project-2-img.png">
+                        <h1 id="h1">Web design</h1>
+                        <h1 style="color: #ffffff;">Happy Meals</h1>
+                        <p>
+                            Happy Meals is the best-in-class
+                            food ordering page today.With
+                            interactive UI/UX and simple call
+                            to actions...
+                        </p>
+                        <a href="#" class="read_more">
+                            Read More
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                              </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+.css
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.top_bg_container{
+    background-color: #3e4c59;
+    padding-top: 25px;
+
+}
+
+h1{
+    color: #cced00;
+    font-size: 25px;
+    margin-left: 13px;
+    margin-right: 12px;
+}
+
+.h1{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+
+#h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #9aa5b1;
+    font-size: 15px;
+
+}
+
+.card_container {
+    background-color: #323f4b;
+    border-radius: 12px;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+p {
+    color: #9aa5b1;
+    font-size: 22px;
+    margin-left: 12px;
+
+}
+
+.read_more{
+    color: #cced00;
+    margin-left: 12px;
+
+}
